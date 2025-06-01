@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100dvh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 120px;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+
+#welovedogs {
+    width: 281px;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 10px;
+
+
+}
+
+#quemsomos {
+    width: 112px;
+    height: 22px;
+
+}
+
+#quemsomos h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#blog {
+    width: 45px;
+    height: 22px;
+
+
+}
+
+#blog h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#inscrever button {
+    width: 151px;
+    height: 40px;
+
+    border-radius: 15px;
+    border: none;
+
+    background: rgba(126, 211, 33, 0.4);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscrever button h2 {
+
+    width: 87px;
+    height: 22px;
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(28, 71, 1, 1);
+
+}
+
+main {
+    width: 100%;
+    height: 904px;
+    top: 120px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#textButton {
+    width: 371px;
+    height: 351px;
+    top: -28px;
+
+}
+
+#textButton a {
+    width: 220px;
+    height: 51px;
+    top: 494px;
+    left: 200px;
+}
+
+
+#textHome {
+    width: 340px;
+    height: 234px;
+    top: 235px;
+    left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+#buttonHome {
+    width: 220px;
+    height: 51px;
+    border-radius: 15px;
+    border: none;
+    background-color: #7ED321;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1C4701
+}
+
+#imgHome {
+    width: 640px;
+    height: 480px;
+    top: 150px;
+    left: 600px;
+
+}
+
+.quemSomos {
+    height: 904px;
+    top: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#quemSomos {
+
+    width: 687px;
+    height: 535px;
+    top: 150px;
+    left: 377px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.quemSomos #quemSomos h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.quemSomos #quemSomos p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+.quemSomos #quemSomos img {
+    width: 354px;
+    height: 266px;
+    top: 419px;
+    left: 543px;
+
+}
+
+
+
