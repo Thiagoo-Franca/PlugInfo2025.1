@@ -1,0 +1,225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 120px;
+    align-items: center;
+
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px 10px;
+    align-items: center;
+}
+
+
+#welovedogs {
+    width: 281px;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px 10px;
+
+
+}
+
+#quemsomos {
+    width: 112px;
+    height: 22px;
+
+}
+
+#quemsomos h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#blog {
+    width: 45px;
+    height: 22px;
+
+
+}
+
+#blog h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+#inscrever button {
+    width: 151px;
+    height: 40px;
+
+    border-radius: 15px;
+    border: none;
+
+    background: rgba(126, 211, 33, 0.4);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#inscrever button h2 {
+
+    width: 87px;
+    height: 22px;
+
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(28, 71, 1, 1);
+
+}
+
+
+main {
+    height: 904px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+main h1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+main section form label {
+    width: 124px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section form button {
+    width: 141px;
+    height: 42px;
+    background-color: #7ED321;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1C4701;
+    border: 0px;
+    align-self: flex-end;
+
+
+
+}
+
+
+
+#inputNome,
+#inputIdade,
+#inputEmail {
+    width: 419px;
+    height: 43px;
+    border-radius: 7px;
+    border-width: 1px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-indent: 10px;
+    color: #9F9F9F;
+    border: 1px solid;
+    border-color: #9F9F9F;
+
+}
+
+#inputText {
+    width: 418px;
+    height: 160px;
+    border-radius: 7px;
+    border-width: 1px;
+    border: 1px solid;
+    border-color: #9F9F9F;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    color: #9F9F9F;
+    border: 1px solid;
+    text-indent: 10px;
+
+}
+
+main section img {
+    width: 582px;
+    height: 436px;
+    top: 270px;
+    left: 717px;
+
+}
