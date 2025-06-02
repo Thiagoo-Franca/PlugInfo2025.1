@@ -13,3 +13,7 @@
 .logo h1 span {
     color: #550312;
 }
+
+@media (max-width: 480px) {
+
+}

@@ -63,3 +63,74 @@
     height: 66px;
 
 }
+
+@media (max-width: 480px) {
+    .Perks {
+        width: 311px;
+        height: 803px;
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-self: center;
+        margin: 64px 0px;
+
+    }
+
+
+    .Perks div {
+        width: 311px;
+        height: 237px;
+        gap: 32px;
+
+    }
+
+    .Perks div h2 {
+        width: 182px;
+        height: 33px;
+        font-family: 'Nunito';
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .Perks div p {
+
+
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+
+
+    .Chefs p {
+        width: 279px;
+        height: 44px;
+
+    }
+
+    .Ingredients p {
+        width: 276px;
+        height: 66px;
+
+    }
+
+    .Delivery p {
+        width: 279px;
+        height: 66px;
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+
+
+    }
+
+
+
+}
