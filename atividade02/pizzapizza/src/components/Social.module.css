@@ -1,0 +1,26 @@
+.Social {
+    width: 310px;
+    height: 138px;
+    gap: 32px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin: 100px 0px;
+
+}
+
+.RedesSociaisLogo {
+    width: 128px;
+    height: 48px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+
+}
+
+.RedesSociaisLogo img {
+    width: 48px;
+    height: 48px;
+}
