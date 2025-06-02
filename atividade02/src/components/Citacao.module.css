@@ -9,6 +9,12 @@
 
 }
 
+.Citacao img {
+    width: 48px;
+    height: 48px;
+
+}
+
 .Citacao h1 {
     width: 315px;
     height: 33px;
@@ -27,5 +33,39 @@
     font-size: 16px;
     line-height: 100%;
     letter-spacing: 0%;
+
+}
+
+@media (max-width: 480px) {
+    .Citacao {
+        width: 311px;
+        height: 138px;
+    }
+
+
+
+    .Citacao h1 {
+        width: 315px;
+        height: 33px;
+
+
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 0%;
+
+    }
+
+    .Citacao p {
+        width: 158px;
+        height: max-content;
+
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 18px;
+
+
+
+    }
 
 }
