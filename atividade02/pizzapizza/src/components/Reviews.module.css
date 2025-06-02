@@ -1,0 +1,7 @@
+.Reviews {
+    height: 266px;
+    background-color: #FFEBBE;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,31 @@
+.Citacao {
+    width: 614.9019775390625px;
+    height: 135px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.Citacao h1 {
+    width: 315px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.Citacao p {
+    width: 143px;
+    height: 22px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
