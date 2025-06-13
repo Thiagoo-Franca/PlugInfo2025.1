@@ -1,0 +1,17 @@
+# Ignorar node_modules em qualquer subpasta
+**/node_modules/
+
+# Ignorar pastas de build do Next.js
+**/.next/
+
+# Ignorar arquivos de build em geral
+**/dist/
+**/build/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
