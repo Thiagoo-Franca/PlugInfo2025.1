@@ -1,0 +1,38 @@
+.header {
+        height: 54px;
+        width: 100%;
+        background-color: #F9F9F9;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+
+        
+}
+
+.carrinho {
+        height: 19px;
+        padding-bottom: 1px;
+        background-color: #F9F9F9;
+
+}
+
+.carrinho h1 {
+        height: 18px;
+        font-size: 15.13px;
+        text-align: center;
+        color: #8B4513;
+}
+
+
+@media (max-width: 480px) {
+        .header {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+        }
+
+
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/thiago/Programacao/PlugInfo2025.1/atividade03/src/components/menu/menuItens/MenuItens.tsx"],"sourcesContent":["'use client'\n\nimport styles from './MenuItens.module.css'\nimport Post from './post/Post';\nimport React from \"react\";\nimport Slider from \"react-slick\";\n\n\nexport default function MenuItens() {\n\n    var settings = {\n        dots: true,\n        infinite: true,\n        speed: 500,\n        slidesToShow: 1,\n        slidesToScroll: 1,\n    };\n\n    return (\n        <>\n            <Slider {...settings}>\n                <div>\n                    <h1>1</h1>\n                </div>\n                <div>\n                    <h1>2</h1>\n                </div>\n                <div>\n                    <h1>3</h1>\n                </div>\n                \n            </Slider>\n        </>\n    )\n\n}"],"names":[],"mappings":";;;;AAKA;AALA;;;AAQe,SAAS;IAEpB,IAAI,WAAW;QACX,MAAM;QACN,UAAU;QACV,OAAO;QACP,cAAc;QACd,gBAAgB;IACpB;IAEA,qBACI;kBACI,cAAA,6LAAC,iJAAA,CAAA,UAAM;YAAE,GAAG,QAAQ;;8BAChB,6LAAC;8BACG,cAAA,6LAAC;kCAAG;;;;;;;;;;;8BAER,6LAAC;8BACG,cAAA,6LAAC;kCAAG;;;;;;;;;;;8BAER,6LAAC;8BACG,cAAA,6LAAC;kCAAG;;;;;;;;;;;;;;;;;;AAOxB;KA3BwB","debugId":null}}]
+}

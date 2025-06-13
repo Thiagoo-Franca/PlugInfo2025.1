@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/menu/menuItens/MenuItens.module.css"],"sourcesContent":[".sliderWrapper {\n    width: 100%;\n    max-width: 1224px;\n    margin: 0 auto;\n}\n\n.slide {\n    display: flex !important;\n    justify-content: center;\n    align-items: center;\n    padding: 8px;\n    min-height: 700px; \n}\n\n.slick-slide {\n    margin: 0 4px !important; }\n\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;;AAQA"}}]
+}

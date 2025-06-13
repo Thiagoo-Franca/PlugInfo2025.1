@@ -1,0 +1,36 @@
+.menu {
+    width: 1224px;
+    height: 757px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.SectionTitle {
+    width: 168px;
+    height: 41px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SectionTitle .Line1 {
+    width: 45;
+    border: 3px solid #550312
+}
+
+.SectionTitle .Title {
+    width: 168px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    color: #550312;
+
+}

@@ -1,0 +1,136 @@
+.Perks {
+    height: 259px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    gap: 32px;
+    margin: 100px 0px;
+
+}
+
+.Perks div {
+    width: 392px;
+    height: 237px;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.Perks div img {
+    width: 96px;
+    height: 96px;
+}
+
+.Perks div h2 {
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #550312;
+}
+
+.Perks div p {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.Chefs p {
+    width: 360px;
+    height: 44px;
+}
+
+.Ingredients p {
+    width: 276px;
+    height: 66px;
+
+}
+
+.Delivery p {
+    width: 360px;
+    height: 66px;
+
+}
+
+@media (max-width: 480px) {
+    .Perks {
+        width: 311px;
+        height: 803px;
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        justify-self: center;
+        margin: 64px 0px;
+
+    }
+
+
+    .Perks div {
+        width: 311px;
+        height: 237px;
+        gap: 32px;
+
+    }
+
+    .Perks div h2 {
+        width: 182px;
+        height: 33px;
+        font-family: 'Nunito';
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .Perks div p {
+
+
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+
+
+
+    .Chefs p {
+        width: 279px;
+        height: 44px;
+
+    }
+
+    .Ingredients p {
+        width: 276px;
+        height: 66px;
+
+    }
+
+    .Delivery p {
+        width: 279px;
+        height: 66px;
+        font-family: 'Nunito';
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0%;
+        text-align: center;
+
+
+    }
+
+
+
+}

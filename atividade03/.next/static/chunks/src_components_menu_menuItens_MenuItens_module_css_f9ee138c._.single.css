@@ -1,0 +1,20 @@
+/* [project]/src/components/menu/menuItens/MenuItens.module.css [app-client] (css) */
+.MenuItens-module__K4hekq__sliderWrapper {
+  width: 100%;
+  max-width: 1224px;
+  margin: 0 auto;
+}
+
+.MenuItens-module__K4hekq__slide {
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  padding: 8px;
+  display: flex !important;
+}
+
+.MenuItens-module__K4hekq__slick-slide {
+  margin: 0 4px !important;
+}
+
+/*# sourceMappingURL=src_components_menu_menuItens_MenuItens_module_css_f9ee138c._.single.css.map*/

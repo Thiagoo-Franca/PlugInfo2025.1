@@ -1,0 +1,17 @@
+/* [project]/src/components/Reviews.module.css [app-client] (css) */
+.Reviews-module__yTtV6W__Reviews {
+  background-color: #ffebbe;
+  justify-content: center;
+  align-items: center;
+  height: 266px;
+  display: grid;
+}
+
+@media (width <= 480px) {
+  .Reviews-module__yTtV6W__Reviews {
+    width: 100%;
+    height: 234px;
+  }
+}
+
+/*# sourceMappingURL=src_components_Reviews_module_css_f9ee138c._.single.css.map*/

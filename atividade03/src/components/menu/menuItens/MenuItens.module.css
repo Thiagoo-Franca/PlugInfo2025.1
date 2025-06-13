@@ -1,0 +1,17 @@
+.sliderWrapper {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.slide {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    min-height: 700px; 
+}
+
+.slick-slide {
+    margin: 0 4px !important; }
+

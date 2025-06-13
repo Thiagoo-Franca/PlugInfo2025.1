@@ -1,0 +1,19 @@
+.logo h1 {
+    width: 207px;
+    height: 38px;
+    font-family: 'Lacquer';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #FFAF14;
+    margin: 0px;
+
+}
+
+.logo h1 span {
+    color: #550312;
+}
+
+@media (max-width: 480px) {
+
+}

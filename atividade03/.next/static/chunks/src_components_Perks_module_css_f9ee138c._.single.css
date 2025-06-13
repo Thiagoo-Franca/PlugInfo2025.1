@@ -1,0 +1,119 @@
+/* [project]/src/components/Perks.module.css [app-client] (css) */
+.Perks-module__KxLIoW__Perks {
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  gap: 32px;
+  height: 259px;
+  margin: 100px 0;
+  display: flex;
+}
+
+.Perks-module__KxLIoW__Perks div {
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 392px;
+  height: 237px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+}
+
+.Perks-module__KxLIoW__Perks div img {
+  width: 96px;
+  height: 96px;
+}
+
+.Perks-module__KxLIoW__Perks div h2 {
+  height: 33px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #550312;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.Perks-module__KxLIoW__Perks div p {
+  text-align: center;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Perks-module__KxLIoW__Chefs p {
+  width: 360px;
+  height: 44px;
+}
+
+.Perks-module__KxLIoW__Ingredients p {
+  width: 276px;
+  height: 66px;
+}
+
+.Perks-module__KxLIoW__Delivery p {
+  width: 360px;
+  height: 66px;
+}
+
+@media (width <= 480px) {
+  .Perks-module__KxLIoW__Perks {
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+    gap: 24px;
+    width: 311px;
+    height: 803px;
+    margin: 64px 0;
+    display: flex;
+  }
+
+  .Perks-module__KxLIoW__Perks div {
+    gap: 32px;
+    width: 311px;
+    height: 237px;
+  }
+
+  .Perks-module__KxLIoW__Perks div h2 {
+    width: 182px;
+    height: 33px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .Perks-module__KxLIoW__Perks div p {
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Perks-module__KxLIoW__Chefs p {
+    width: 279px;
+    height: 44px;
+  }
+
+  .Perks-module__KxLIoW__Ingredients p {
+    width: 276px;
+    height: 66px;
+  }
+
+  .Perks-module__KxLIoW__Delivery p {
+    width: 279px;
+    height: 66px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+/*# sourceMappingURL=src_components_Perks_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,82 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([typeof document === "object" ? document.currentScript : undefined, {
+
+"[project]/src/app/carrinho/components/CarrinhoContext.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
+"use strict";
+
+var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+{
+__turbopack_context__.s({
+    "CarrinhoContext": (()=>CarrinhoContext),
+    "CarrinhoProvider": (()=>CarrinhoProvider)
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+const CarrinhoContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(undefined);
+function CarrinhoProvider({ children }) {
+    _s();
+    const [carrinho, setCarrinho] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    const limparCarrinho = ()=>setCarrinho([]);
+    const adicionarPizza = (pizza)=>{
+        setCarrinho((prevCarrinho)=>{
+            const index = prevCarrinho.findIndex((item)=>item.id === pizza.id);
+            // Se já existe, incrementa a quantidade
+            if (index !== -1) {
+                const novoCarrinho = [
+                    ...prevCarrinho
+                ];
+                novoCarrinho[index].quantidade += 1;
+                return novoCarrinho;
+            }
+            // Senão, adiciona a pizza com quantidade 1
+            return [
+                ...prevCarrinho,
+                {
+                    ...pizza,
+                    quantidade: 1
+                }
+            ];
+        });
+    };
+    const aumentarQuantidade = (id)=>{
+        setCarrinho((prev)=>prev.map((item)=>item.id === id ? {
+                    ...item,
+                    quantidade: item.quantidade + 1
+                } : item));
+    };
+    const diminuirQuantidade = (id)=>{
+        setCarrinho((prev)=>prev.map((item)=>item.id === id ? {
+                    ...item,
+                    quantidade: item.quantidade - 1
+                } : item).filter((item)=>item.quantidade > 0) // remove se quantidade chegar a 0
+        );
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CarrinhoContext.Provider, {
+        value: {
+            carrinho,
+            adicionarPizza,
+            aumentarQuantidade,
+            diminuirQuantidade,
+            limparCarrinho
+        },
+        children: children
+    }, void 0, false, {
+        fileName: "[project]/src/app/carrinho/components/CarrinhoContext.tsx",
+        lineNumber: 60,
+        columnNumber: 9
+    }, this);
+}
+_s(CarrinhoProvider, "FLXw+F/Jjh0qdj2FwjXl/faVOrE=");
+_c = CarrinhoProvider;
+var _c;
+__turbopack_context__.k.register(_c, "CarrinhoProvider");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
+}
+}}),
+}]);
+
+//# sourceMappingURL=src_app_carrinho_components_CarrinhoContext_tsx_69f454eb._.js.map

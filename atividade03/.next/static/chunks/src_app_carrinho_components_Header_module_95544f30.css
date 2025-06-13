@@ -1,0 +1,60 @@
+/* [project]/src/app/carrinho/components/Header.module.css [app-client] (css) */
+.Header-module__GEGd1G__header {
+  background-color: #f9f9f9;
+  justify-content: center;
+  align-items: center;
+  width: 1916px;
+  height: 77px;
+  margin: 0;
+  padding: 19px 0 20px;
+  display: grid;
+  box-shadow: 0 2px 10px #0000001a;
+}
+
+.Header-module__GEGd1G__container {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 1160px;
+  height: 38px;
+  padding-right: 434.39px;
+  display: flex;
+}
+
+.Header-module__GEGd1G__container button {
+  width: 149px;
+  height: 19px;
+  padding-bottom: 1px;
+}
+
+.Header-module__GEGd1G__container button h1 {
+  text-align: center;
+  vertical-align: middle;
+  color: #8b4513;
+  width: 149px;
+  height: 18px;
+  font-size: 15.13px;
+}
+
+.Header-module__GEGd1G__logo {
+  width: 207px;
+  height: 38px;
+}
+
+.Header-module__GEGd1G__logo h1 {
+  color: #ffaf14;
+  width: 207px;
+  height: 38px;
+  letter-spacing: 0%;
+  font-family: Lacquer;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.Header-module__GEGd1G__logo h1 span {
+  color: #550312;
+}
+
+
+/*# sourceMappingURL=src_app_carrinho_components_Header_module_95544f30.css.map*/

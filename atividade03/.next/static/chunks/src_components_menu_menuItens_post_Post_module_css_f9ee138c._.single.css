@@ -1,0 +1,94 @@
+/* [project]/src/components/menu/menuItens/post/Post.module.css [app-client] (css) */
+.Post-module__ZATeGG__post {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Post-module__ZATeGG__postPizza {
+  background-color: #fff;
+  border: 1px solid #550312;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 288px;
+  height: 652px;
+  margin: 10px;
+  padding: 48px 16px;
+  display: flex;
+}
+
+.Post-module__ZATeGG__postPizza img {
+  width: 200px;
+  height: 200px;
+}
+
+.Post-module__ZATeGG__postPizza h1 {
+  letter-spacing: 0%;
+  color: #000;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.Post-module__ZATeGG__postPizza p {
+  text-align: center;
+  width: 256px;
+  height: 132px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.Post-module__ZATeGG__postPizza h2 {
+  text-align: center;
+  color: #000;
+  width: 76px;
+  height: 25px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.Post-module__ZATeGG__postPizza button {
+  background-color: #ffaf14;
+  border: 1px solid #550312;
+  border-radius: 5px;
+  width: 150px;
+  height: 38px;
+  padding: 8px 32px;
+}
+
+.Post-module__ZATeGG__postPizza button h1 {
+  color: #550312;
+  width: 86px;
+  height: 22px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (width <= 480px) {
+  .Post-module__ZATeGG__postPizza {
+    border-width: 1px;
+    border-radius: 10px;
+    gap: 32px;
+    width: 232px;
+    height: 696px;
+    padding: 48px 16px;
+  }
+
+  .Post-module__ZATeGG__postPizza p {
+    width: 200px;
+    height: 176px;
+  }
+
+  .Post-module__ZATeGG__postPizza h1 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=src_components_menu_menuItens_post_Post_module_css_f9ee138c._.single.css.map*/
