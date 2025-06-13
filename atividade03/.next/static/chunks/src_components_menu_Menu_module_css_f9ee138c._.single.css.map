@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/menu/Menu.module.css"],"sourcesContent":[".menu {\n    width: 1224px;\n    height: 757px;\n    display: flex;\n    flex-direction: column;\n    justify-self: center;\n    align-self: center;\n    align-items: center;\n    justify-content: space-between;\n    margin-top: 100px;\n}\n\n.SectionTitle {\n    width: 168px;\n    height: 41px;\n    gap: 8px;\n    display: flex;\n    flex-direction: column;\n    justify-content: space-around;\n    align-items: center;\n}\n\n.SectionTitle .Line1 {\n    width: 45;\n    border: 3px solid #550312\n}\n\n.SectionTitle .Title {\n    width: 168px;\n    height: 33px;\n    font-family: 'Nunito';\n    font-weight: 600;\n    font-size: 24px;\n    color: #550312;\n\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAYA;;;;;;;;;;AAUA;;;;;AAKA"}}]
-}
