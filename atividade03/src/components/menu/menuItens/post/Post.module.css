@@ -1,0 +1,115 @@
+.post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.postPizza {
+    width: 288px;
+    height: 652px;
+    padding-top: 48px;
+    padding-right: 16px;
+    padding-bottom: 48px;
+    padding-left: 16px;
+    gap: 32px;
+    border-width: 1px;
+    border-radius: 10px;
+    border: 1px solid #550312;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.postPizza img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.postPizza h1 {
+
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.postPizza p {
+    width: 256px;
+    height: 132px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.postPizza h2 {
+    width: 76px;
+    height: 25px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.postPizza button {
+    width: 150px;
+    height: 38px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #FFAF14;
+    border: 1px solid #550312
+}
+
+.postPizza button h1 {
+    width: 86px;
+    height: 22px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    color: #550312;
+}
+
+@media (max-width: 480px) {
+
+    .post {
+
+    }
+
+    .postPizza {
+        width: 232px;
+        height: 696px;
+        padding-top: 48px;
+        padding-right: 16px;
+        padding-bottom: 48px;
+        padding-left: 16px;
+        gap: 32px;
+        border-radius: 10px;
+        border-width: 1px;
+
+    }
+
+    .postPizza p {
+        width: 200px;
+        height: 176px;
+
+    }
+
+    .postPizza h1 {
+        text-align: center;
+    }
+}

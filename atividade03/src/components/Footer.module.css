@@ -1,0 +1,16 @@
+.Footer {
+    height: 73px;
+    width: 100%;
+    background-color: #FFEBBE;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    .Footer {
+        width: 100%;
+        height: 51px;
+
+    }
+}

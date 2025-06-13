@@ -1,0 +1,299 @@
+.carrinhoPage {
+    width: 100%;
+    height: 1000.8099975585938px;
+    padding-top: 40px;
+    padding-bottom: 362.25px;
+    background-color: #F8F4F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.carrinhoPage section {
+    width: 1200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.Heading {
+    width: 1160px;
+    height: 52px;
+
+    font-family: 1;
+    font-weight: 600;
+    font-size: 32;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2C2C2C;
+}
+
+.Heading h1 {
+
+    font-weight: 600;
+    font-size: 32;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.resumo {
+    width: 373.3399963378906px;
+    height: 506.55999755859375px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.resumo button {
+    width: 313.3399963378906px;
+    height: 49px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #DAA520;
+    background: linear-gradient(#DAA520, #B8860B);
+
+}
+
+.resumo button h2 {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15.13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+
+}
+
+.HorizontalBorder {
+    width: 313.3399963378906px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    border-bottom-width: 1;
+    border-bottom: 1px solid var(--color-grey-94, #F0F0F0)
+}
+
+.HorizontalBorder h2 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25, 6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2C2C2C;
+
+}
+
+.entrega {
+    width: 313.3399963378906px;
+    height: 135.77000427246094px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.entregaH3 {
+    width: 313.3399963378906px;
+    height: 26px;
+    font-family: 1;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2C2C2C;
+
+
+}
+
+
+.marcar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 313.3399963378906px;
+    height: 49.59000015258789px;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    gap: 10px;
+
+}
+
+.marcar input {
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    border-radius: 50px;
+    border: 1px solid var(--color-grey-46, #767676)
+}
+
+.marcar input:checked {
+    background-color: #DAA520;
+    border: 1px solid#DAA520;
+
+}
+
+.marcar h3 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2C2C2C;
+
+}
+
+
+.Container {
+
+    width: 746.6599731445312px;
+
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px 0px #0000001A;
+
+
+}
+
+.Container .Informacoes {
+    width: 686.6599731445312px;
+    height: 132.38999938964844px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+    border-bottom-width: stroke weight;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    border-bottom: 1px solid var(--color-grey-94, #F0F0F0)
+}
+
+.Container .Informacoes .imgAolado {
+    width: 80px;
+    height: 80px;
+
+}
+
+.Container .Informacoes .quantidade {
+    display: flex;
+    flex-direction: row;
+    width: 156.02000427246094px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Container .Informacoes .NomeDescPreco {
+    width: 410.63995361328125px;
+    height: 92.38999938964844px;
+    padding-bottom: 0.59px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.NomeDescPreco h2 {
+    width: 410.63995361328125px;
+    height: 29.799999237060547px;
+    padding-bottom: 0.8px;
+    font-weight: 500;
+    font-size: 18;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2C2C2C;
+
+
+}
+
+.NomeDescPreco p {
+    width: 410.63995361328125px;
+    height: 28px;
+    padding-bottom: 5px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #666666;
+}
+
+.NomeDescPreco h3 {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #8B4513;
+
+}
+
+.quantidade img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.quantidade p {
+    width: 20.139999389648438px;
+    height: 26.59000015258789px;
+    min-width: 20px;
+    padding-right: 5.08px;
+    padding-bottom: 0.59px;
+    padding-left: 5.06px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+.Heading2 {
+    width: 180px;
+    height: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2C2C2C;
+    align-self:self-start;
+    margin-left: 30px;
+}
