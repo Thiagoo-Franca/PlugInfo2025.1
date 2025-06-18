@@ -1,0 +1,19 @@
+.Logo {
+    width: 207px;
+    height: 38px;
+    font-family: 'Lacquer';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #550312;
+
+}
+
+.Logo span {
+    color: #FFAF14;
+}
+
+.Logo:hover {
+    cursor: pointer;
+}

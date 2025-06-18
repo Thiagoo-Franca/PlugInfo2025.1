@@ -1,0 +1,116 @@
+.Menu {
+    width: 1224px;
+    height: 757px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flow-root;
+}
+
+.Titulo {
+    width: 168px;
+    height: 41px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    margin-bottom: 80px;
+}
+
+.Titulo hr {
+    width: 45px;
+    border-width: 3px;
+    border: 3px solid #550312;
+}
+
+.Titulo h1 {
+    width: 168px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    color: #550312;
+}
+
+.PostPizza {
+    width: 288px;
+    height: 652px;
+    border: 1px solid #550312;
+    gap: 32px;
+    border-radius: 10px;
+    padding-top: 48px;
+    padding-right: 16px;
+    padding-bottom: 48px;
+    padding-left: 16px;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.PostPizza img {
+    width: 200px;
+    height: 200px;
+}
+
+.PostPizza h1 {
+    width: 230px;
+    height: 33px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.PostPizza p {
+    width: 256px;
+    height: 132px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.PostPizza h2 {
+    width: 76px;
+    height: 25px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.PostPizza button {
+    width: 150px;
+    height: 38px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    background-color: #FFAF14;
+    border: 1px solid #550312;
+}
+
+.PostPizza button h1 {
+    width: 86px;
+    height: 22px;
+
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    color: #550312;
+    text-align: center;
+
+}
+
+.PostPizza button:hover {
+    cursor: pointer;
+}
