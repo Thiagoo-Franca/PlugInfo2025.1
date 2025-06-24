@@ -1,0 +1,46 @@
+{
+  "id": "citacoes_group",
+  "type": "SharedSlice",
+  "name": "CitacoesGroup",
+  "description": "CitacoesGroup",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "citacoes": {
+          "type": "Group",
+          "config": {
+            "label": "Citacoes",
+            "repeat": true,
+            "fields": {
+              "texto": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "texto",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,heading1,heading2,heading3,heading4,heading5,heading6,strong,em"
+                }
+              },
+              "autor": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "autor",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading1,heading2,heading3,heading4,heading5,heading6"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
