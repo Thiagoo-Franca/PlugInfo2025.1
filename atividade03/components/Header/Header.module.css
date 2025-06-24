@@ -1,0 +1,22 @@
+.Header {
+    height: 54px;
+    background-color: #F9F9F9;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.Header section {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Header section img {
+    height: 24px;
+    width: 24px;
+}
