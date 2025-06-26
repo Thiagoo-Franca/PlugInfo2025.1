@@ -1,0 +1,76 @@
+{
+  "cardapio": [
+    {
+      "id": "1",
+      "nome": "Pepperoni",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/pepperoni_pizza.png"
+    },
+    {
+      "id": "2",
+      "nome": "Muita maionese",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/muita_maionese.png"
+    },
+    {
+      "id": "3",
+      "nome": "Queijo",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/queijo.png"
+    },
+    {
+      "id": "4",
+      "nome": "Varios ingredientes",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/varios_ingredientes.png"
+    },
+    {
+      "id": "5",
+      "nome": "Milho",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/varios_ingredientes.png"
+    },
+    {
+      "id": "6",
+      "nome": "Calabresa",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/varios_ingredientes.png"
+    },
+    {
+      "id": "7",
+      "nome": "Portuguesa",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/varios_ingredientes.png"
+    }
+  ],
+  "carrinho": [
+    {
+      "id": "1",
+      "nome": "Pepperoni",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/pepperoni_pizza.png"
+    },
+    {
+      "id": "2",
+      "nome": "Muita maionese",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/muita_maionese.png"
+    },
+    {
+      "id": "5",
+      "nome": "Milho",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/varios_ingredientes.png"
+    }
+  ]
+}
