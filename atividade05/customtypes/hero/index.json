@@ -1,0 +1,28 @@
+{
+  "format": "custom",
+  "id": "hero",
+  "label": "Hero",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "titulo": {
+        "type": "StructuredText",
+        "config": {
+          "label": "titulo",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "heroimage": {
+        "type": "Image",
+        "config": {
+          "label": "HeroImage",
+          "constraint": {},
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

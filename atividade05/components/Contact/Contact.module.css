@@ -1,0 +1,169 @@
+.Contact {
+    width: 100%;
+    height: 475px;
+    background-color: #FFEBBE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ScheduleInfo {
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Schedule {
+    width: 392px;
+    height: 64px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Schedule img {
+    width: 64px;
+    height: 64px;
+}
+
+.Schedule div {
+    width: 194px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.Schedule div h1 {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+}
+
+.Info {
+    width: 295px;
+    height: 85px;
+    gap: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Location,
+.Phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    gap: 16px;
+    letter-spacing: 0%;
+
+}
+
+.Location img,
+.Phone img {
+    height: 24px;
+    width: 24px;
+}
+
+.formulario {
+    width: 392px;
+    height: 379px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.formulario hr {
+    width: 45px;
+    border-width: 3px;
+    border: 3px solid #550312
+}
+
+.formulario h1 {
+    font-family: 'Nunito';
+    width: 141px;
+    height: 33px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #550312;
+    letter-spacing: 0%;
+}
+
+
+.formulario .nomeEmail {
+    width: 392px;
+    height: 38px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+    font-family: 'Nunito';
+}
+
+.formulario .mensagem {
+    width: 392px;
+    height: 128px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    background-color: #FFFFFF;
+
+    font-family: 'Nunito';
+}
+
+.formulario button {
+    width: 111px;
+    height: 38px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    background-color: #FFAF14;
+    border: 1px solid #550312;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario button h1 {
+    width: 47px;
+    height: 22px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0%;
+    color: #550312;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.errors {
+    color: red;
+    font-family: 'Nunito';
+    font-size: 14px;
+    align-self: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
