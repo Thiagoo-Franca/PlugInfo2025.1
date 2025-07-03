@@ -1,0 +1,40 @@
+.Social {
+    width: 310px;
+    height: 138px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 128px 0px;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.Social h1 {
+    width: 310px;
+    height: 58px;
+    font-family: 'Lacquer';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #550312;
+
+}
+
+.Social section {
+    width: 128px;
+    height: 48px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Social section img {
+    width: 48px;
+    height: 48px;
+
+}

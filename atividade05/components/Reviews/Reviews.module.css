@@ -1,0 +1,49 @@
+.Reviews {
+    height: 266px;
+    width: 100%;
+    background-color: #FFEBBE;
+    padding-top: 32px;
+    margin: 0px;
+    
+
+}
+
+.Reviews img {
+    justify-self: center;
+    align-self: center;
+    width: 48px;
+    height: 48px;
+
+
+}
+
+.Reviews section {
+    justify-self: center;
+    align-self: center;
+}
+
+.ReviewsSection h1 {
+    align-self: center;
+    justify-self: center;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.ReviewsSection p {
+    align-self: center;
+    justify-self: center;
+    font-family: 'Nunito';
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}

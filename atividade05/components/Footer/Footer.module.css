@@ -1,0 +1,29 @@
+.Footer {
+    height: 73px;
+    background-color: #FFEBBE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer main {
+    display: flex;
+    flex-direction: row;
+    width: 229px;
+    height: 25px;
+    gap: 8px;
+}
+
+.Footer main img {
+    width: 24px;
+    height: 24px;
+}
+
+.Footer main h1 {
+    width: 197px;
+    height: 25px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 18px;
+}

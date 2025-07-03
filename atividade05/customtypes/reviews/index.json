@@ -1,0 +1,22 @@
+{
+  "format": "custom",
+  "id": "reviews",
+  "label": "Reviews",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "citacoes_group": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    }
+  }
+}

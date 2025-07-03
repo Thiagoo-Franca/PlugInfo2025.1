@@ -1,0 +1,45 @@
+{
+  "name": "pizzapizza",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "lint": "next lint",
+    "api": "json-server --watch db.json --port 3001",
+    "start": "concurrently \"npm run api\" \"npm run dev\"",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "@prismicio/client": "^7.18.0",
+    "@prismicio/helpers": "^2.3.9",
+    "@prismicio/next": "^2.0.1",
+    "@prismicio/react": "^3.2.1",
+    "@sendgrid/mail": "^8.1.5",
+    "axios": "^1.10.0",
+    "formik": "^2.4.6",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.59.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "slick-carousel": "^1.8.1",
+    "toastify-react-native": "^7.2.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.3.78",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-slick": "^0.23.13",
+    "json-server": "^1.0.0-beta.3",
+    "slice-machine-ui": "^2.16.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
