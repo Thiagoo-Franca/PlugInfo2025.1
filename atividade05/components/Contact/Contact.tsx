@@ -1,25 +1,49 @@
 'use client'
-import { useFormik } from 'formik'
 import styles from './Contact.module.css'
+import { useForm, SubmitHandler, Form } from 'react-hook-form'
 import * as Yup from 'yup'
+import { yupResolver } from '@hookform/resolvers/yup'
+import { toast, ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 const validationSchema = Yup.object({
     nome: Yup.string().required("Nome é obrigatório!"),
-    email: Yup.string().email("Email invalido").required("Email é obrigatorio")
+    email: Yup.string().email("Email invalido").required("Email é obrigatorio"),
+    mensagem: Yup.string().required("Mensagem necessaria!")
+
 })
 
 export default function Contact() {
 
-    const formik = useFormik ({
-        initialValues : {nome: "", email: "", mensagem: ""}, 
-        validationSchema,
-        onSubmit: (values) => {
-            console.log(values)
-        
-        },
-    });
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm({
+        resolver: yupResolver(validationSchema),
+    })
+
+    const onSubmit = async (data: any) => {
+        try {
+            const res = await fetch("/api/clientes", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            });
+
+            if (!res.ok) throw new Error("Erro ao enviar mensagem");
+
+            toast.success("Mensagem enviada com sucesso");
+        } catch (err) {
+            console.error("Erro ao enviar mensagem", err);
+            toast.error("Erro ao enviar mensagem! ")
+        }
+    }
 
     return (
+
         <main className={styles.Contact}>
 
             <section className={styles.ScheduleInfo}>
@@ -46,16 +70,30 @@ export default function Contact() {
 
             </section>
 
-            <form className={styles.formulario} onSubmit={formik.handleSubmit}>
+            <form className={styles.formulario} onSubmit={handleSubmit(onSubmit)} >
                 <hr />
                 <h1>Fale conosco</h1>
-                <input value={formik.values.nome} onChange={formik.handleChange} type="text" name="nome" className={styles.nomeEmail} placeholder='Nome' />
-                {formik.errors.nome && <p className={styles.errors}>{formik.errors.nome}</p>}
-                <input value={formik.values.email} onChange={formik.handleChange} type="email" name='email' className={styles.nomeEmail} placeholder='Email' />
-                {formik.errors.email && <p className={styles.errors}>{formik.errors.email}</p>}
-                <input value={formik.values.mensagem} onChange={formik.handleChange} type="text" name='mensagem' placeholder='Mensagem' className={styles.mensagem} />
-                <button type="submit"><h1>Enviar</h1></button>
+                <div style={{ position: 'relative' }}>
+
+                    <input {...register("nome")} type="text" name="nome" className={styles.nomeEmail} placeholder='Nome' />
+                    {errors.nome?.message && <p className={styles.errors}>{errors.nome?.message}</p>}
+                </div>
+
+
+                <div style={{ position: 'relative' }}>
+                    <input {...register("email")} name='email' className={styles.nomeEmail} placeholder='Email' />
+                    {errors.email?.message && <p className={styles.errors}>{errors.email?.message}</p>}
+
+                </div>
+                <div style={{ position: 'relative' }}>
+                    <input {...register("mensagem")} type="text" name='mensagem' placeholder='Mensagem' className={styles.mensagem} />
+                    {errors.mensagem?.message && <p className={styles.errors}>{errors.mensagem?.message}</p>}
+
+                </div>
+
+                <button type='submit'><h1>Enviar</h1></button>
             </form>
+            <ToastContainer />
 
         </main>
     )

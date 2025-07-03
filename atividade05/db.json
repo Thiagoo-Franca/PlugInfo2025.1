@@ -50,5 +50,48 @@
       "imagem": "/assets/PizzasImg/varios_ingredientes.png"
     }
   ],
-  "carrinho": []
+  "carrinho": [
+    {
+      "id": "1",
+      "nome": "Pepperoni",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/pepperoni_pizza.png"
+    },
+    {
+      "id": "2",
+      "nome": "Muita maionese",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/muita_maionese.png"
+    },
+    {
+      "id": "3",
+      "nome": "Queijo",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/queijo.png"
+    },
+    {
+      "id": "3",
+      "nome": "Queijo",
+      "descricao": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "preco": "R$ 39,90",
+      "imagem": "/assets/PizzasImg/queijo.png"
+    }
+  ],
+  "clientes": [
+    {
+      "id": "c630",
+      "nome": "Thiago Oliveira França",
+      "email": "francathiago450@gmail.com",
+      "mensagem": "bom dia"
+    },
+    {
+      "id": "1c4d",
+      "nome": "Thiago Oliveira França",
+      "email": "francathiago450@gmail.com",
+      "mensagem": "bom dia"
+    }
+  ]
 }
